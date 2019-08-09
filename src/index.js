@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Clock from './Clock'
+import NameForm from './NameForm'
 //import Welcome from './Welcome';
 //import App from './App';
 //import Comment from './Comment';
@@ -21,7 +21,13 @@ import Clock from './Clock'
    // ReactDOM.render(<Clock />, document.getElementById('root'));
 //}
 //setInterval(tick, 1000);
-ReactDOM.render(<Clock />, document.getElementById('root'));
+
+// const posts = [
+//     {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
+//     {id: 2, title: 'Installation', content: 'You can install React from npm.'}
+// ];    
+
+ReactDOM.render(<NameForm />, document.getElementById('root'));
 
 //ReactDOM.render(<Welcome name="Sarah Duterte" value="Inday Leni"/>, document.getElementById('root'));
 //ReactDOM.render(<App />, document.getElementById('root'));

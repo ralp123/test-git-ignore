@@ -1,28 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Comment from './Comment';
+import Clock from './Clock'
+//import Welcome from './Welcome';
+//import App from './App';
+//import Comment from './Comment';
 //import * as serviceWorker from './serviceWorker';
 
-//for Comment Component
-const comment = {
-    date: new Date(),
-    text: 'I hope you enjoy learning React!',
-    author: {
-      name: 'Hello Kitty',
-      avatarUrl: 'https://placekitten.com/g/64/64',
-    },
-};
-//for Comment Component
+// function Clock(props) {
+//     return (
+//       <div>
+//         <h2>Test Clock!</h2>
+//         <h2>It is {props.date.toLocaleTimeString()}.</h2>
+//       </div>
+//     );
+// }
 
-ReactDOM.render(
-    <Comment 
-        date={comment.date}
-        text={comment.text}
-        author={comment.author}/>, 
-    document.getElementById('root')
-);
+//Example of clock
+//function tick() {
+   // ReactDOM.render(<Clock />, document.getElementById('root'));
+//}
+//setInterval(tick, 1000);
+ReactDOM.render(<Clock />, document.getElementById('root'));
 
+//ReactDOM.render(<Welcome name="Sarah Duterte" value="Inday Leni"/>, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change

@@ -24,3 +24,6 @@ yarn-error.log*
 
 #Test gitignore files
 /src/Comment.js
+/src/App.js
+/src/Welcome.js
+

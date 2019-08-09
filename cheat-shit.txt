@@ -1,0 +1,20 @@
+React Js Cheat Sheet Like.
+1. Create React App. — npx create-react-app react-tutorial
+2. Start React App. —npm start
+3. Build. npm run build
+4. Deploy. Npm run deploy
+
+repo
+1. git commit
+2. git remote add origin https://github.com/you/project (if error occurs) or git remote set-url origin  https://github.com/ralp123/test_repo.git (set origin)
+3. git status (Optional)
+4. git add .
+5. git status (Optional)6
+6. git commit -am "Initial Commit" 
+7. git push origin master
+
+1. Git branch -m <old_name> <new_name>    - Rename branch
+2. git branch -m <newname>    - Rename current branch
+3. git remote -v     - To check the current repo link
+4. git log —oneline   - To check 
+5. git reset a4ec4e5  ——— first seven character.

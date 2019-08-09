@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Numbers from './Numbers'
+import Clock from './Clock'
 //import Welcome from './Welcome';
 //import App from './App';
 //import Comment from './Comment';
@@ -21,7 +21,7 @@ import Numbers from './Numbers'
    // ReactDOM.render(<Clock />, document.getElementById('root'));
 //}
 //setInterval(tick, 1000);
-ReactDOM.render(<Numbers />, document.getElementById('root'));
+ReactDOM.render(<Clock />, document.getElementById('root'));
 
 //ReactDOM.render(<Welcome name="Sarah Duterte" value="Inday Leni"/>, document.getElementById('root'));
 //ReactDOM.render(<App />, document.getElementById('root'));

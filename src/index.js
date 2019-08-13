@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NameForm from './NameForm'
+//import NameForm from './NameForm'
 //import Welcome from './Welcome';
 //import App from './App';
 //import Comment from './Comment';
 //import * as serviceWorker from './serviceWorker';
+import TestApi from './TestApi'
 
 // function Clock(props) {
 //     return (
@@ -27,7 +28,7 @@ import NameForm from './NameForm'
 //     {id: 2, title: 'Installation', content: 'You can install React from npm.'}
 // ];    
 
-ReactDOM.render(<NameForm />, document.getElementById('root'));
+ReactDOM.render(<TestApi />, document.getElementById('root'));
 
 //ReactDOM.render(<Welcome name="Sarah Duterte" value="Inday Leni"/>, document.getElementById('root'));
 //ReactDOM.render(<App />, document.getElementById('root'));
